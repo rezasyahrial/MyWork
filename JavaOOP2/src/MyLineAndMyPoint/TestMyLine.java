@@ -4,7 +4,7 @@ public class TestMyLine {
 
     public static void main(String[] args) {
         MyLine myLine = new MyLine(0, 0, 3, 4);
-        System.out.println(l1);
+        System.out.println(myLine);
 
         MyPoint myPoint = new MyPoint(0, 0);
         MyPoint myPoint1 = new MyPoint(3, 4);
