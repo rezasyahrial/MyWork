@@ -102,6 +102,10 @@ public class MyComplex {
         return new MyComplex(real, -imag);
     }
 
+    public double argument(){
+        return Math.atan2(imag,real) ;
+    }
+
 
 
 
